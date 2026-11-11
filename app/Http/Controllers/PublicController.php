@@ -22,7 +22,7 @@ public function get_circuit(){
 public function store(Request $request){
     $circuit = new Circuit();
 
-    $circuit->Name = $request->Name;
+    $circuit->name = $request->Name;
     $circuit->email = $request->email;
     $circuit->description = $request->description;
     $circuit->price = $request->price;

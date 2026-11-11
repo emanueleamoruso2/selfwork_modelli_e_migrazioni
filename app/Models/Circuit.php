@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Circuit extends Model
 {
     protected $fillable = [
-        'Name',
+        'name',
         'email',
         'description',
         'price'
